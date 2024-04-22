@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EchartComponent } from './echart/echart.component';
+import { EchartSimpleComponent } from './echart-simple/echart-simple.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EchartComponent,
+    EchartSimpleComponent
   ],
   imports: [
     BrowserModule,
